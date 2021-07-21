@@ -1716,7 +1716,7 @@ function shouldExtend( attrName ) {
  * @param {String|Function} eventNameOrFunctionOrAttribute An attribute name of
  * {@link module:utils/observablemixin~Observable} or a DOM event name or an event callback.
  * @param {Function} [callback] Allows for processing of the value. Accepts `Node` and `value` as arguments.
- * @returns {module:ui/template~TemplateBinding}
+ * @returns {module:ui/template~TemplateToBinding}
  */
 
 /**
@@ -1751,7 +1751,7 @@ function shouldExtend( attrName ) {
  * @param {String} [valueIfTrue] Value set when the {@link module:utils/observablemixin~Observable} attribute is not
  * undefined/null/false/'' (empty string).
  * @param {Function} [callback] Allows for processing of the value. Accepts `Node` and `value` as arguments.
- * @returns {module:ui/template~TemplateBinding}
+ * @returns {module:ui/template~TemplateIfBinding}
  */
 
 /**
